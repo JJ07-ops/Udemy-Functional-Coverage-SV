@@ -36,7 +36,6 @@ module tb;
       sel = $urandom();
       a = $urandom();
       b = $urandom();
-      //$display("value of sel : %04b and a : %02b @%0t ",y, a , $time);
       #10
       ci.sample();
     end
